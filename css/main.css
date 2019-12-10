@@ -1,0 +1,389 @@
+@font-face {
+    font-family: Kalpurush;
+    src: url(../fonts/kalpurush.ttf);
+}
+
+@font-face {
+    font-family: NotoSansBengali;
+    src: url(../fonts/NotoSansBengali.ttf);
+}
+
+@font-face {
+    font-family: AmarBangla;
+    src: url(../fonts/AmarBangla.ttf);
+}
+
+@font-face {
+    font-family: Siyamrupali;
+    src: url(../fonts/Siyamrupali.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Kalpurush', 'Poppins', sans-serif;
+}
+
+/* *************************************************** */
+/* Theame Stylesheet start from here */
+/* *************************************************** */
+html,
+body {
+    /* overflow-x: hidden;
+    overflow-y: auto; */
+}
+
+p,
+b,
+span,
+a,
+button {
+    font-family: 'Poppins', 'Kalpurush';
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+a {
+    color: #6A0DAD;
+}
+
+p,
+a,
+b,
+span,
+ul,
+li {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'AmarBangla';
+}
+
+ul {}
+
+ul li {
+    list-style: url(../images/checkmark-2.png);
+}
+
+.en {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-theame {
+    padding: 8px 30px;
+    background: #6A0DAD;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 2px solid #6A0DAD;
+    transition: linear .2s;
+    outline: 0;
+}
+
+.btn-theame:hover {
+    border-color: #6A0DAD;
+    background: #fff;
+    color: #6A0DAD;
+    text-decoration: none;
+    transition: linear .2s;
+    outline: 0;
+}
+
+.btn-theame:active {
+    outline: 0;
+}
+
+.btn-theame-white {
+    background: #fff;
+    color: #6A0DAD;
+    border-color: #fff;
+}
+
+.btn-theame-white:hover {
+    border-color: #fff;
+    background: #6A0DAD;
+    color: #fff;
+}
+
+.semi-light-bgc {
+    background: #F5F4F4;
+}
+
+.theame-text {
+
+    margin: 0;
+    line-height: 1.8;
+}
+
+.sec-title {}
+
+.sec-title h2 {
+    color: #6A0DAD;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 50px
+}
+
+.sec-title h3 {}
+
+.sec-title p {}
+
+.accordion {}
+
+.accordion li {
+    margin-top: 10px !important;
+}
+
+.accordion li a {
+    font-size: 18px;
+    color: #333;
+}
+
+.accordion li a:hover {
+    color: #6A0DAD;
+}
+
+.accordion li div {
+    margin-top: 5px;
+}
+
+.accordion li div p {
+    padding: 0 30px;
+    font-size: 16px;
+}
+
+.text-perple {
+    color: #6A0DAD;
+}
+
+/* *************************************************** */
+/* Theame Stylesheet end here */
+/* *************************************************** */
+/*  */
+/* *************************************************** */
+/* Home section start from here */
+/* *************************************************** */
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.theame-nav {
+    padding: 20px;
+}
+
+.theame-nav-contant button {padding: 0;border: none;outline: 0;}
+
+.theame-nav-contant button span {color: #fff;}
+
+.theame-nav a {
+    color: #6A0DAD;
+    font-family: NotoSansBengali;
+}
+
+.theame-nav ul {}
+
+.theame-nav ul li {}
+
+.theame-nav ul li a {}
+
+.theame-nav-contant {
+    background: #6A0DAD;
+    box-shadow: 0 1px 3px white;
+}
+
+.theame-nav-contant li {
+    padding-bottom: 3px;
+    overflow: hidden;
+}
+
+.theame-nav-contant a {
+    color: #fff;
+    padding: 8px 0px !important;
+    font-size: 17px;
+    margin: 0 15px;
+    padding-bottom: 0px !important;
+    border-bottom: 1px solid transparent;
+    transition: linear .2s;
+    position: relative;
+    overflow: hidden;
+}
+
+.theame-nav-contant a:before {
+    content: "";
+    background: #fff;
+    width: 100%;
+    padding-top: 1px;
+    position: absolute;
+    right: 100%;
+    transition: linear .2s;
+    bottom: 0;
+}
+
+.theame-nav-contant a:hover:before {
+    right: 0;
+    transition: linear .2s;
+}
+
+.banner-sec {
+    background-image: url(../images/home-banner.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    min-height: 100vh;
+}
+
+.banner-overlay {
+    background-image: url(../images/home-banner-overlay-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    min-height: 100vh;
+}
+
+.banner-contant {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 550px;
+}
+
+.banner-contant h1 {
+    margin-bottom: 30px;
+    line-height: 65px;
+    font-weight: bold;
+    color: #6A0DAD;
+    font-size: 50px;
+}
+
+.banner-contant p {
+    display: block;
+    width: 480px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.banner-contant a {}
+
+.site-logo-bg {
+    height: 100%;
+    position: relative;
+}
+
+.site-logo-bg img {
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.upcomming-course {
+    background: #6A0DAD;
+}
+
+.upcomming-course h2 {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 15px !important;
+}
+
+.upcomming-course h3 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.upcomming-course p {
+    color: #fff;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.upcomming-course a {}
+
+.s-w-yes {
+    font-size: 72px;
+    font-family: AmarBangla;
+    font-weight: bold;
+    color: #fff;
+}
+
+.option-list-st li {
+    padding-left: 10px;
+
+}
+
+.point-list {}
+
+.point-list li {
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.learn-card {
+    margin: 30px 0;
+}
+
+.learn-card-img {
+    width: 180px;
+    display: table-cell;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+.learn-card-img img {
+    width: 100%;
+}
+
+.learn-card-contant {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.learn-card h3 {
+    font-family: inherit;
+    margin-bottom: 5px;
+}
+
+.learn-card-contant p {
+    margin: 0;
+    margin-bottom: 0px;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.learn-card a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.learn-card ul {
+    margin: 0;
+}
+
+.learn-card ul li {
+    list-style: none;
+}
+
+.learn-card .uk-accordion-content li {
+    list-style: url(../images/checkmark-2.png);
+    color: #333;
+}
+
+/* *************************************************** */
+/* Home section end here */
+/* *************************************************** */
